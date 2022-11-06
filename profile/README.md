@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <font size="6">A platform for music NFT's in the Polygon blockchain</font>
+  <b>A platform for music NFT's in the Polygon blockchain</b>
 </p>
 
 This project consists of two **repositories**:
