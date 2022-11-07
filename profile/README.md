@@ -6,16 +6,18 @@
   <b>A platform for music NFT's in the Polygon blockchain</b>
 </p>
 
+**Live app**: https://st3mz-dapp.web.app
+
+**Video demo**: https://youtu.be/49fqkVwTfeM
+
 This project consists of two **repositories**:
 
 - [st3mz-contracts](https://github.com/St3mz-dApp/st3mz-contracts): Smart contracts, tests and deployment script.
 - [st3mz-client](https://github.com/St3mz-dApp/st3mz-client): UI for interaction with the smart contracts.
 
-**Live app**: https://st3mz-dapp.web.app/
-
 # Overview 👀
 
-St3mz is a platform that allows artists to publish their music in the form of NFTs in the Polygon blockchain, so that other users can buy them acquiring also the rights to use them with different levels of freedom.
+St3mz is a platform that allows artists to publish their music in the form of NFTs in the Polygon blockchain, so that other users can buy them acquiring also the rights to use the music with different levels of freedom.
 
 Each **NFT** is composed of:
 
