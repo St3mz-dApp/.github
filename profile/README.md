@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <b>A platform for music NFT's in the Polygon blockchain</b>
+  <b>A platform for music NFT's in the Fantom blockchain</b>
 </p>
 
 **Live app**: https://st3mz-dapp.web.app
@@ -17,7 +17,7 @@ This project consists of two **repositories**:
 
 # Overview 👀
 
-St3mz is a platform that allows artists to publish their music in the form of NFTs in the Polygon blockchain, so that other users can buy them acquiring also the rights to use the music with different levels of freedom.
+St3mz is a platform that allows artists to publish their music in the form of NFTs in the Fantom blockchain, so that other users can buy them acquiring also the rights to use the music with different levels of freedom.
 
 Each **NFT** is composed of:
 
@@ -122,7 +122,7 @@ This is a utility contract to perform read-only operations over the St3mz contra
 
 ## Deployments
 
-|            |                                                                St3mz                                                                 |                                                              St3mzUtil                                                               |
-| ---------- | :----------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: |
-| **Mumbai** | [0xf8ba37b852c05ef755865d06d2911b840433c2e4](https://mumbai.polygonscan.com/address/0xf8ba37b852c05ef755865d06d2911b840433c2e4#code) | [0x8e542a5e13df14b2c6cdd2eb07ada4bce879df38](https://mumbai.polygonscan.com/address/0x8e542a5e13df14b2c6cdd2eb07ada4bce879df38#code) |
-| Mainnet    |    [0xd89e04f2ddf5f8212461d27584216f00ab6e96f4](https://polygonscan.com/address/0xd89e04f2ddf5f8212461d27584216f00ab6e96f4#code)     |    [0x2da83a100e25ad3a2ea58967d37f8439a33de4fb](https://polygonscan.com/address/0x2da83a100e25ad3a2ea58967d37f8439a33de4fb#code)     |
+|             |                        St3mz                        |                      St3mzUtil                      |
+| ----------- | :-------------------------------------------------: | :-------------------------------------------------: |
+| **Testnet** | [0x0](https://testnet.ftmscan.com/address/0x0#code) | [0x0](https://testnet.ftmscan.com/address/0x0#code) |
+| **Mainnet** |     [0x0](https://ftmscan.com/address/0x0#code)     |     [0x0](https://ftmscan.com/address/0x0#code)     |
