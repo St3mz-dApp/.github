@@ -70,41 +70,7 @@ The smart contracts have been written in [Solidity 0.8.17](https://docs.solidity
 
 The NFT files (audios, image and metadata) are stored in [Filecoin](https://filecoin.io/) and made available over [IPFS](https://ipfs.tech/) with the [NFT.Storage](https://nft.storage/) service.
 
-[pages/Create.tsx](https://github.com/St3mz-dApp/st3mz-client/blob/678435242ea9bb5e3c4a7431693b2c9cb6f1fc48/src/pages/Create.tsx#L103) snippet:
-
-```ts
-// Create instance of NFTStorage client
-const nftStorage = new NFTStorage({
-  token: API_TOKEN,
-});
-
-// (...)
-
-// Store files on IPFS
-const storeIpfs = async () => {
-  // (...)
-
-  // Store audio files and image on IPFS directory
-  const filesCid = await nftStorage.storeDirectory([track, ...stems, image]);
-
-  // Store metadata on IPFS
-  const metadataCid = await nftStorage.storeBlob(
-    generateMetadata(filesCid, licensesMeta)
-  );
-
-  return metadataCid;
-};
-```
-
 NFT.Storage IPFS's gateway is used to access the stored files.
-
-[utils/utils.ts](https://github.com/St3mz-dApp/st3mz-client/blob/678435242ea9bb5e3c4a7431693b2c9cb6f1fc48/src/utils/util.ts#L115) snippet:
-
-```ts
-export const getIpfsUri = (baseUri: string): string => {
-  return baseUri.replace("ipfs://", ipfsGatewayUrl);
-};
-```
 
 # Smart contracts 📃
 
