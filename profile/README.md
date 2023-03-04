@@ -6,7 +6,7 @@
   <b>A platform for music NFT's in the Fantom blockchain</b>
 </p>
 
-[![video](/profile/images/video.jpg)](https://youtu.be/7ZTtODMmgvc)
+[![video](/profile/images/video.png)](https://youtu.be/7ZTtODMmgvc)
 
 **Live app**: https://st3mz.xyz
 
