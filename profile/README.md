@@ -6,12 +6,17 @@
   <b>A platform for music NFT's in the Fantom blockchain</b>
 </p>
 
-**Live app**: https://st3mz-dapp.web.app
+[![video](/profile/images/video.jpg)](https://youtu.be/7ZTtODMmgvc)
 
-This project consists of two **repositories**:
+**Live app**: https://st3mz.xyz
+
+**Alternative URL**: https://dark-truth-0166.on.fleek.co
+
+This project consists of three **repositories**:
 
 - [st3mz-contracts](https://github.com/St3mz-dApp/st3mz-contracts): Smart contracts, tests and deployment script.
-- [st3mz-client](https://github.com/St3mz-dApp/st3mz-client): UI for interaction with the smart contracts.
+- [st3mz-client](https://github.com/St3mz-dApp/st3mz-client): UI for interaction with the smart contracts and the back end.
+- [st3mz-backend](https://github.com/St3mz-dApp/st3mz-backend): Back end to cache files and data for faster retrieval in the UI.
 
 # Overview 👀
 
@@ -56,21 +61,31 @@ This means that a user that just want to own the audio NFT as a collectible can 
 
 # Technologies used 🔧
 
-## Front end
-
-The front end application has been created with JavaScript's [React](https://reactjs.org/) framework, using the scaffolding project [Create React App](https://create-react-app.dev/).
-
-The application also makes use of [Tailwind CSS](https://tailwindcss.com/) framework.
-
 ## Smart contracts
 
 The smart contracts have been written in [Solidity 0.8.17](https://docs.soliditylang.org/en/v0.8.17/) and [Foundry](https://book.getfoundry.sh/) development toolchain has been used for testing and deployment.
 
+## Front end
+
+The front end application has been created with JavaScript's [React](https://reactjs.org/) framework, using the scaffolding project [Create React App](https://create-react-app.dev/) and [Tailwind CSS](https://tailwindcss.com/) framework.
+
+The application is hosted in [IPFS](https://ipfs.tech/) though [Fleek](https://fleek.co/).
+
+# Back end
+
+The back end is a [NodeJS](https://nodejs.org/) application built with [Express.js](https://expressjs.com/).
+
+It is hosted with [AWS's Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) service.
+
+# Database
+
+Object-relational [PostgreSQL](https://www.postgresql.org/) database.
+
 ## Storage
 
-The NFT files (audios, image and metadata) are stored in [Filecoin](https://filecoin.io/) and made available over [IPFS](https://ipfs.tech/) with the [NFT.Storage](https://nft.storage/) service.
+The NFT files (audios, image and metadata) are stored in [Filecoin](https://filecoin.io/) and made available over IPFS with the [NFT.Storage](https://nft.storage/) service.
 
-NFT.Storage IPFS's gateway is used to access the stored files.
+All files are also stored in [AWS's S3](https://aws.amazon.com/s3/) by the back end application, for faster retrieval in the client application.
 
 # Smart contracts 📃
 
@@ -89,4 +104,3 @@ This is a utility contract to perform read-only operations over the St3mz contra
 |             |                                                               St3mz                                                               |                                                             St3mzUtil                                                             |
 | ----------- | :-------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------: |
 | **Testnet** | [0xde619f24562251520058773d3625b00716ce804b](https://testnet.ftmscan.com/address/0xde619f24562251520058773d3625b00716ce804b#code) | [0xecf1ff305d570585885f6078cff66a678777b10b](https://testnet.ftmscan.com/address/0xecf1ff305d570585885f6078cff66a678777b10b#code) |
-| **Mainnet** |                                            [0x0](https://ftmscan.com/address/0x0#code)                                            |                                            [0x0](https://ftmscan.com/address/0x0#code)                                            |
