@@ -18,7 +18,7 @@ This project consists of three **repositories**:
 - [st3mz-client](https://github.com/St3mz-dApp/st3mz-client): UI for interaction with the smart contracts and the back end.
 - [st3mz-backend](https://github.com/St3mz-dApp/st3mz-backend): Back end to cache files and data for faster retrieval in the UI.
 
-# Overview 👀
+# 👀 Overview
 
 St3mz is a platform that allows artists to publish their music in the form of NFTs in the Fantom blockchain, so that other users can buy them acquiring also the rights to use the music with different levels of freedom.
 
@@ -59,7 +59,7 @@ We can see how this works with an example. Let's assume that we have an NFT with
 
 This means that a user that just want to own the audio NFT as a collectible can do so buying just one unit. However, if that user wanted to use the track to create a remix and publish it in their new album, they would require buying three units of the NFT. Finally, if the purpose is to have exclusive rights over the piece so that nobody else can use it with commercial purposes they would require to buy the whole supply.
 
-# Technologies used 🔧
+# 🔧 Technologies used
 
 ## Smart contracts
 
@@ -71,13 +71,13 @@ The front end application has been created with JavaScript's [React](https://rea
 
 The application is hosted in [IPFS](https://ipfs.tech/) though [Fleek](https://fleek.co/).
 
-# Back end
+## Back end
 
 The back end is a [NodeJS](https://nodejs.org/) application built with [Express.js](https://expressjs.com/).
 
 It is hosted with [AWS's Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) service.
 
-# Database
+## Database
 
 Object-relational [PostgreSQL](https://www.postgresql.org/) database.
 
@@ -87,7 +87,7 @@ The NFT files (audios, image and metadata) are stored in [Filecoin](https://file
 
 All files are also stored in [AWS's S3](https://aws.amazon.com/s3/) by the back end application, for faster retrieval in the client application.
 
-# Smart contracts 📃
+# 📃 Smart contracts
 
 ## St3mz
 
