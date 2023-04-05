@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <b>A platform for music NFT's in the Fantom blockchain</b>
+  <b>A platform for music NFT's in the Polygon blockchain</b>
 </p>
 
 [![video](/profile/images/video.png)](https://youtu.be/7ZTtODMmgvc)
@@ -20,7 +20,7 @@ This project consists of three **repositories**:
 
 # 👀 Overview
 
-St3mz is a platform that allows artists to publish their music in the form of NFTs in the Fantom blockchain, so that other users can buy them acquiring also the rights to use the music with different levels of freedom.
+St3mz is a platform that allows artists to publish their music in the form of NFTs in the Polygon blockchain, so that other users can buy them acquiring also the rights to use the music with different levels of freedom.
 
 Each **NFT** is composed of:
 
@@ -101,6 +101,6 @@ This is a utility contract to perform read-only operations over the St3mz contra
 
 ## Deployments
 
-|             |                                                               St3mz                                                               |                                                             St3mzUtil                                                             |
-| ----------- | :-------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------: |
-| **Testnet** | [0xde619f24562251520058773d3625b00716ce804b](https://testnet.ftmscan.com/address/0xde619f24562251520058773d3625b00716ce804b#code) | [0xecf1ff305d570585885f6078cff66a678777b10b](https://testnet.ftmscan.com/address/0xecf1ff305d570585885f6078cff66a678777b10b#code) |
+**St3mz**: [0xd89e04f2ddf5f8212461d27584216f00ab6e96f4](https://polygonscan.com/address/0xd89e04f2ddf5f8212461d27584216f00ab6e96f4#code)
+
+**Util**: [0x2da83a100e25ad3a2ea58967d37f8439a33de4fb](https://polygonscan.com/address/0x2da83a100e25ad3a2ea58967d37f8439a33de4fb#code)
