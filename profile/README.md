@@ -6,8 +6,6 @@
   <b>A platform for music NFT's in the Polygon blockchain</b>
 </p>
 
-[![video](/profile/images/video.png)](https://youtu.be/7ZTtODMmgvc)
-
 **Live app**: https://st3mz.xyz
 
 **Alternative URL**: https://dark-truth-0166.on.fleek.co
@@ -25,11 +23,11 @@ St3mz is a platform that allows artists to publish their music in the form of NF
 Each **NFT** is composed of:
 
 - A main audio track
-- Multitrack files (stems) that form the main audio track
+- Multi-track files (stems) that form the main audio track
 - An image artwork
 - The metadata related with the audio track
 
-These files are stored in the **Filecoin decentralized storage network** to ensure permanent persistence of the data. This, together with the proof of creation that the multitrack files offer, ensures that an artist can demonstrate that is the rightful creator of the material.
+These files are stored in the **Filecoin decentralized storage network** to ensure permanent persistence of the data. This, together with the proof of creation that the multi-track files offer, ensures that an artist can demonstrate that is the rightful creator of the material.
 
 The metadata of the NFT includes a **licenses** property. Here the creator can specify up to three different kinds of licenses and the minimum amount of units a user will require owning to exercise the rights granted by that license. These are the three types of licenses available:
 
